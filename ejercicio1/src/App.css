@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(34, 34, 112, 0.733);
 }
 
 .App-logo {
@@ -43,4 +44,12 @@
 
 .ul {
   width: 20%;
+  padding: 2rem;
+  background-color: rgba(255, 239, 239, 0.817);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 2px solid black;
 }
