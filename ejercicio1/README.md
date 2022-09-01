@@ -12,7 +12,7 @@
 
 <br>
 
-<img src='./readme-media/Ejercicio-1-codigo.jpeg'/>
+<img width='700px' src='./readme-media/Ejercicio-1-codigo.jpeg'/>
 
 <br>
 
@@ -20,4 +20,4 @@
 
 <br>
 
-<img src='./readme-media/Ejercicio-1-preview.jpeg'/>
+<img width='700px' src='./readme-media/Ejercicio-1-preview.jpeg'/>
