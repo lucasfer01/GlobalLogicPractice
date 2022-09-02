@@ -1,0 +1,32 @@
+.weatherDayContainer {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 1rem;
+  /* background-color: aquamarine; */
+  border: 2px solid rgb(5, 5, 5);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  background-color: rgb(67, 143, 237);
+box-shadow: 0 0 3px rgba(5, 5, 5, 0.594);
+}
+
+.weatherDayContainer:hover {
+  transform: scale(1.05);
+}
+
+.weatherDayContainer > h2 {
+  margin-top: 0;
+}
+
+.weatherDayContainer > img {
+    filter: drop-shadow(3px 3px 1px #222);
+}
+
+.weatherDayContainer > span {
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
