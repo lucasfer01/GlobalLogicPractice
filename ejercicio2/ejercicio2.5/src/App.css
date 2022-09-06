@@ -1,5 +1,15 @@
 .App {
+  height: 200px;
+  width: 300px;
   text-align: center;
+  padding: 4rem 3rem;
+  background-color: #61dafb;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
 
 .App-logo {
@@ -35,4 +45,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.app-button-container {
+display: flex;
+flex-direction: column;
+margin-bottom: 2rem;
+justify-content: center;
+align-items: center;
+}
+
+.app-button-container > button {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, .3);
+  margin-bottom: .5rem;
+  cursor: pointer;
+  background-color: rgba(30, 0, 253, 0.728);
+  color: white;
+}
+
+.app-div-container {
+  border: 1px dotted black;
+  width: 90%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .2rem 0;
 }
