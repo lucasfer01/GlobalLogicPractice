@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Ejercicio 2.6
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+````
+Con el fin de : comprender librerías de css-in-js de React, el techCamp se dividira en 3 grupos donde se analizaran 3 librerías diferentes de css-in-js :
 
-## Available Scripts
+    - Material UI (Ya que wix style react no me funcionaba elegi una libreria parecida)
+    - Styled-components
+    - Radium
 
-In the project directory, you can run:
+Teniendo como tareas:
+    - comprender la librería
+    - entender en forma teórica el funcionamiento de la misma
+    - desarrollar una POC simple
+    - Explicar a todos el funcionamiento de la misma (con pros & cons)
 
-### `npm start`
+````
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Resultado
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Material UI
+<img width='700px' src='./readme-media/material-ui.jpeg' />
 
-### `npm test`
+<p>Pro: Note bastante facilidad al usar componentes</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+<p>Contra: Las paginas suelen tener diseños parecidos</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<hr>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Styled Components
+<img width='700px' src='./readme-media/styled-component.jpeg' />
 
-### `npm run eject`
+<p>Pro: Como en material UI tuve bastante facilidad al usar componentes y flexibilidad a la hora de dar estilos</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p>Contra: Sumamente necesaria la modularización</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<hr>
 
-## Learn More
+### Radium
+<img width='700px' src='./readme-media/Radium.jpeg' />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p>Pro: Facil de usar</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
 
-### Code Splitting
+<p>Contra: Es mas probable que se sature la linea con estilos y no se puede dar estilos a componentes hijos / hermanos de forma sencilla</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br>
 
-### Analyzing the Bundle Size
+<hr>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Código
 
-### Making a Progressive Web App
+### App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<img width='700px' src='./readme-media/app2.6.jpeg' />
 
-### Advanced Configuration
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### MaterialUI
 
-### Deployment
+<img width='700px' src='./readme-media/material-ui-code-1.jpeg' />
+<img width='700px' src='./readme-media/material-ui-code-2.jpeg' />
+<img width='700px' src='./readme-media/material-ui-code-3.jpeg' />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<br>
 
-### `npm run build` fails to minify
+### Radium
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width='700px' src='./readme-media/radium-code-1.jpeg' />
+<img width='700px' src='./readme-media/radium-code-2.jpeg' />
+
+<br>
+
+### Styled Components
+
+<img width='700px' src='./readme-media/styled-component-code-1.jpeg' />
+<img width='700px' src='./readme-media/styled-component-code-2.jpeg' />
