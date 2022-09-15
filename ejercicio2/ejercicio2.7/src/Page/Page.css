@@ -1,0 +1,15 @@
+.Header__div--flex {
+    display: flex;
+}
+
+.Header__div {
+    height: 4rem;
+}
+
+.Header__Logo {
+    width: 12vw;
+}
+
+.Header__WebsiteHeading {
+    width: 88vw;
+}

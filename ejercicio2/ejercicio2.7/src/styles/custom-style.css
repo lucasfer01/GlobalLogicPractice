@@ -1,0 +1,25 @@
+.div--flex {
+    display: flex;
+}
+
+.block--center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text--bold {
+    font-weight: bold;
+}
+
+.p--noMargin {
+    margin: 0;
+}
+
+.block--gray {
+    background-color: #666666;
+}
+
+.block--pink {
+    background-color: #cb99cc;
+}

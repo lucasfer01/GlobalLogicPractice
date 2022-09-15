@@ -1,0 +1,6 @@
+.Section {
+    width: calc(100% / 3);
+    height: 400px;
+    background-color: #0000fe;
+    font-size: 1.5rem;
+}
