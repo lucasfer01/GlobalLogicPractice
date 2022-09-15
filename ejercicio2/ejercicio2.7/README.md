@@ -56,7 +56,7 @@ Elegí usar la metodologia BEM para los estilos
 
 ### Page.css
 
-<img width='350px' src='./readme-media/Page.png' />
+<img width='350px' src='./readme-media/page.png' />
 
 <br>
 
