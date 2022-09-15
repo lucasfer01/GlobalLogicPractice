@@ -1,46 +1,65 @@
-# Getting Started with Create React App
+# Ejercicio 2.7
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+````
+    - Con el fin de comprender cómo funcionan los estilos, componentes y comprender las ventajas y problemas de alguna de las formas de aplicar estilos en React, se debe desarrollar una app que tenga la siguiente estructura, con colores y estilos.
 
-## Available Scripts
+    - Se tendrá foco en la modularización y aplicado de estilos
 
-In the project directory, you can run:
+    - Se usaran “CSS stylesheets” y una de las 3 metodologías CSS (OOCSS, BEM o SMACSS)
 
-### `npm start`
+````
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Resultado
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<img width='700px' src='./readme-media/resultado-ejercicio2-7.png' />
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Estructura del proyecto - Atomic Design
 
-### `npm run build`
+````
+Se me ocurrió practicar la metodología de Atomic Design
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    - En la parte de componentes hay 3 grupos
+        - Los Atomos: La unidad mas pequeña de elementos necesarios para armar la UI
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+        - Las Molecules: Conjunto de Atomos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+        - Los Organismos: Conjunto de Moleculas
 
-### `npm run eject`
+    Cada uno de estos grupos contiene un archivo index donde se exportaran todos los elementos del grupo
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    Por último esta la carpeta Page donde se unen todos los elementos necesarios para armar una interfaz
+````
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img width='250px' src='./readme-media/Atomic-Design-Architecture.jpeg'/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Metodología de estilos - BEM
 
-## Learn More
+````
+Elegí usar la metodologia BEM para los estilos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    - Cada componente cuentas con su archivo CSS para los estilos base
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    - Creé un archivo llamado "custom-style.css" donde hay estilos que se suelen repetir
+
+    - Los componentes pueden recibir clases mediante props ademas de tener las propias
+````
+
+### custom-style.css
+
+<img width='350px' src='./readme-media/custom-style.png'/>
+
+<br>
+
+### Page.css
+
+<img width='350px' src='./readme-media/Page.png' />
+
+<br>
+
+### Page.tsx
+
+<img width='700px' src='./readme-media/Page-code.png'/>
