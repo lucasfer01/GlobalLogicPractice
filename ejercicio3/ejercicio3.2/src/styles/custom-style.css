@@ -1,0 +1,18 @@
+.block--rounded {
+  border-radius: 10px;
+}
+
+.--blackBorder {
+  border: 4.5px dotted black;
+}
+
+.block--padding-m {
+  padding: 2rem;
+}
+
+.block--center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
