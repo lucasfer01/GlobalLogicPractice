@@ -1,0 +1,28 @@
+.Card__container {
+    width: 30%;
+    min-height: 500px;
+    background-color: #1d70b4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 2.5rem 0;
+    box-sizing: border-box;
+}
+
+.Card__img {
+    width: 150px;
+    margin-bottom: 3rem;
+}
+
+.Card__h2 {
+    margin-bottom: 2.5rem;
+    color: white;
+}
+
+.Card__span {
+    display: block;
+    width: 300px;
+    color: white;
+    text-align: justify;
+}

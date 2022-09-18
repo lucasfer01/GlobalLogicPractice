@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #4de4ec;
+}
+
+.App__loading {
+  font-size: 4rem;
+}
+
+.App__loader {
+  width: 100px;
+  margin-bottom: 5rem;
+}
+
+.App__h1 {
+  margin: 0; 
+  margin-bottom: 2.5rem;
+}
+
+.App__button {
+  width: 200px;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(255, 0, 0, 0.749);
+  border: none;
+  color: white;
+  cursor: pointer;
+  border: 2.5px solid black;
+}
+
+.App__h1--error {
+  width: 500px;
+  height: 300px;
+  background-color: red;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid black;
+}
+
+.App__img {
+  width: 100px;
+}
