@@ -28,7 +28,7 @@ https://user-images.githubusercontent.com/85971126/191051485-a5dd1448-4356-409e-
 
 ### Card
 
-<img width='700px' src='./readme-media/Card-code.png' />
+<img width='700px' src='./readme-media/card-code.png' />
 
 <br>
 
