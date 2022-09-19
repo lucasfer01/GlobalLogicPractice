@@ -1,0 +1,73 @@
+.Card__container {
+  width: 350px;
+  min-height: 500px;
+  max-height: 500px;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin: 0 0.5rem 2rem;
+  box-sizing: border-box;
+  padding: 2rem 0 0;
+  border-radius: 20px;
+  border: 5px solid rgba(0, 0, 0, 0.321);
+}
+
+.Card__img {
+  border-radius: 50%;
+  border: 10px solid white;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  width: 200px;
+}
+
+.Card__div--line {
+  height: 1px;
+  background-color: aliceblue;
+  width: 90%;
+}
+
+.Card__h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.9rem;
+  text-align: center;
+}
+
+.Card__info {
+  margin-top: 1rem;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  background-color: rgb(30, 145, 145);
+  height: 140px;
+  border-radius: 20px;
+  color: white;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+  list-style: none;
+}
+
+.Card__li::before {
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  font-size: 1.6rem;
+  width: 1rem;
+}
+
+.Card__li--Dead::before {
+    color: red;
+}
+
+.Card__li--Alive::before {
+    color: greenyellow;
+}
+
+.Card__li--unknown::before {
+    color: gray;
+}
