@@ -33,7 +33,7 @@ Crear un proyecto desde cero en React
 
 ## Resultado
 
-
+https://user-images.githubusercontent.com/85971126/191218387-62d1ed3b-44af-4e48-bac3-96668f3d756e.mp4
 
 <br>
 
