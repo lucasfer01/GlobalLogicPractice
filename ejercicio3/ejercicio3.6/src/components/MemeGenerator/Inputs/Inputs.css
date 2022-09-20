@@ -1,0 +1,31 @@
+.Inputs {
+  width: 100%;
+  min-height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 0 0 0;
+}
+
+.Inputs__container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.Inputs__container > div > label {
+    margin-bottom: .5rem;
+}
+
+.Inputs__button {
+    min-width: 300px;
+    min-height: 2rem;
+    border-radius: 20px;
+    border: none;
+    box-sizing: border-box;
+    background-color: greenyellow;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.MemeGenerator__container {
+    width: 100%;
+    min-height: calc(100vh - 4rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.MemeGenerator__Images {
+    height: 20rem;
+    width: 85%;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.--error {
+    color: red;
+    margin-top: 1rem;
+}
+
+.--Active {
+    background-color: red;
+    opacity: .75;
+    border: 8px solid yellow;
+    box-sizing: border-box;
+}

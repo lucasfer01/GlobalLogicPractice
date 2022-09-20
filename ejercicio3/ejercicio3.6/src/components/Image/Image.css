@@ -1,0 +1,10 @@
+.Image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.Image:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
