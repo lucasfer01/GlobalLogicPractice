@@ -1,46 +1,92 @@
-# Getting Started with Create React App
+# Ejercicio 3.6
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+````
+Crear un proyecto desde cero en React
 
-## Available Scripts
+    - La app deberia tener:
+        - Header
+        - Footer
+        - Contenido
 
-In the project directory, you can run:
+    - Una clase debería servir al propósito de guardar el estado del MemeGenerator (smart component)
 
-### `npm start`
+    - State: el meme (top-text, bottom-text, imagen)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    • Para obtener las imágenes se usará la API de ImgFlip ( https://api.imgflip.com/ ) 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+    • El servicio que llamaremos: https://api.imgflip.com/get_memes 
 
-### `npm test`
+    • El memeGenerator tendra 2 partes: 
+        - un componente smart
+        - un componente dumb (presentacional)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    • El componente presentacional tendrá: 
+        - 2 inputs (uno para top text, otro para bottom text)  y un botón para generar el meme
+        - Una parte de la app estará dedicada a mostrar el meme (el top text, bottom text y la imagen)
+        - Al hacer click en el botón para generar el meme, se deberá elegir una imagen random del arreglo de imágenes del servicio y mostrarlo en la parte de contenido (junto con los textos)
 
-### `npm run build`
+    • Creditos Extra: agregar estilos básicos a botones, input, header, footer, etc
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+````
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Resultado
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## MemeGeneratorContainer
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<img width='700px' src='./readme-media/MemeGeneratorContainer-code.png'/>
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## MemeGenerator
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img width='700px' src='./readme-media/MemeGenerator-code.png'/>
+
+<br>
+
+## Inputs
+
+<img width='700px' src='./readme-media/inputs-code.png'/>
+
+<br>
+
+## PreviewMeme
+
+<img width='700px' src='./readme-media/previewMeme-code.png'/>
+
+<br>
+
+## Image
+
+<img width='700px' src='./readme-media/image-code.png'/>
+
+<br>
+
+## InputText
+
+<img width='700px' src='./readme-media/inputText-code.png'/>
+
+<br>
+
+## HttpClient
+
+<img width='700px' src='./readme-media/httpClient-code.png'/>
+
+<br>
+
+## Interfaces
+
+<img width='700px' src='./readme-media/interfaces-code.png'/>
+
+<br>
+
+## App
+
+<img width='700px' src='./readme-media/app-code.png'/>
+
+<br>
