@@ -39,7 +39,7 @@ Crear un proyecto desde cero en React
 
 ## MemeGeneratorContainer
 
-<img width='700px' src='./readme-media/MemeGeneratorContainer-code.png'/>
+<img width='700px' src='./readme-media/memeGeneratorContainer-code.png'/>
 
 <br>
 
