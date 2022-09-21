@@ -1,0 +1,16 @@
+.Usuario__container {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.Usuario__container h2 {
+    margin: 0;
+}
