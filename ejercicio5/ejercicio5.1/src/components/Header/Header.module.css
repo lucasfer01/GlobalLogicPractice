@@ -1,0 +1,15 @@
+.Header__container {
+    height: 75px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 2.5rem;
+    /* margin: 0 0 2rem 0; */
+
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    box-sizing: border-box;
+
+    background-color: rgb(233, 138, 43);
+}

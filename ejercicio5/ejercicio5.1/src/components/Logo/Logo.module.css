@@ -1,0 +1,5 @@
+.Logo__img {
+    width: 175px;
+
+    filter: drop-shadow(2px 3px 1px #222);
+}

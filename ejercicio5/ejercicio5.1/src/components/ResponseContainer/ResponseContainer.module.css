@@ -1,0 +1,9 @@
+.ResponseContainer__container {
+    min-height: 4rem;
+
+    padding: 1rem 0;
+    
+    background-color: #ccc;
+
+    box-sizing: border-box;
+}
